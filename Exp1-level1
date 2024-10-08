@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char U,l;
+    scanf("%c",&U);
+    l=(int)U+32;
+    printf("%c",l);
+    return 0;
+}
