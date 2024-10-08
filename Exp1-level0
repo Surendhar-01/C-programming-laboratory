@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int N,multiple,i;
+    printf("Enter the positive number:");
+    scanf("%d",&N,&i);
+    for(i=0;i<=3;i++)
+    {
+        multiple=N*i;
+        printf("%d\n",multiple);
+    }
+    printf(" \n");
+    return 0;
+}
