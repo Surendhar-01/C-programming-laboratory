@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int number,n,product;
+    printf("number=");
+    scanf("%d",&number);
+    printf("n=");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        product=number*i;
+        printf("%d*%d=%d\n",number,i,product);
+    }
+    return 0;
+}
